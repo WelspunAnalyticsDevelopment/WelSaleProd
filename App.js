@@ -19,8 +19,8 @@ app.use((req, res, next) => {
   next();
 });
 
-app.listen(host || 80, () => {
-  console.log(`Server is running on port ${host || 80}`);
+app.listen( process.env.PORT ||8080, () => {
+  console.log(`Server is running on port ${ process.env.PORT || 8080}`);
 });
 
 

@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'WelSell-BE'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_92FB31058D8F4C6F9802C1E83C672036 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D31563D58B814823995A1882D357883B }}
           package: .

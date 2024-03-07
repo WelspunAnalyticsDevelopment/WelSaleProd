@@ -19,7 +19,7 @@ app.use((req, res, next) => {
   next();
 });
 
-app.listen(host || 44300, () => {
+app.listen(host || 80, () => {
   console.log(`Server is running on port ${host || 44300}`);
 });
 
